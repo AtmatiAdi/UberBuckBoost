@@ -1,0 +1,24 @@
+Circuit: * C:\Users\atmat\Desktop\Active_Brake\Simulations\buck_Mos.asc
+
+Limiting rise time of source v2 to 1e-006
+Limiting fall time of source v2 to 1e-006
+Instance "m:u1:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Jan 12 21:43:11 2022
+Total elapsed time: 5.787 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2005273
+traniter = 2005264
+tranpoints = 749210
+accept = 533365
+rejected = 215845
+matrix size = 24
+fillins = 6
+solver = Normal
+Matrix Compiler1: 2.13 KB object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 2.19 KB object code size  0.2/0.2/[0.1]
+
