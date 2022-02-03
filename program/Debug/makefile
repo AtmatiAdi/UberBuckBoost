@@ -61,8 +61,8 @@ all: main-build
 main-build: D06_Buck_Boost.elf secondary-outputs
 
 # Tool invocations
-D06_Buck_Boost.elf: $(OBJS) $(USER_OBJS) C:\Users\atmat\Desktop\Active_Brake\buck_boost\STM32F030C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "D06_Buck_Boost.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\atmat\Desktop\Active_Brake\buck_boost\STM32F030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="D06_Buck_Boost.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+D06_Buck_Boost.elf: $(OBJS) $(USER_OBJS) C:\Users\atmat\Desktop\Uber_Buck_Boost\program\STM32F030C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "D06_Buck_Boost.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\atmat\Desktop\Uber_Buck_Boost\program\STM32F030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="D06_Buck_Boost.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

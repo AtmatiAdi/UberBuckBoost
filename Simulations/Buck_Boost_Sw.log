@@ -1,23 +1,56 @@
-Circuit: * C:\Users\atmat\Desktop\Active_Brake\Simulations\Buck_Boost_Sw.asc
+Circuit: * C:\Users\atmat\Desktop\Uber_Buck_Boost\Simulations\Buck_Boost_Sw.asc
 
 Limiting rise time of source v2 to 1e-006
 Limiting fall time of source v2 to 1e-006
-Direct Newton iteration for .op point succeeded.
+WARNING: Node NC_17 is floating.
 
-Date: Wed Jan 12 23:01:56 2022
-Total elapsed time: 0.084 seconds.
+WARNING: Less than two connections to node NC_17.  This node is used by S4.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.012 to 0.012
+Heightened Def Con from 0.012 +++++++++++++++to 0.012
+Heightened Def Con from 0.0120115 to 0.0120115
+Heightened Def Con from 0.013 +++++++++++++to 0.013
+Heightened Def Con from 0.03 ++++++++++to 0.03
+Heightened Def Con from 0.0731214 to 0.0731214
+Heightened Def Con from 0.0941488 to 0.0941488
+Heightened Def Con from 0.1293 ++++++++++++++++++to 0.129301
+Heightened Def Con from 0.1304 ++++++++++++++++++to 0.130401
+Heightened Def Con from 0.155266 to 0.155266
+Heightened Def Con from 0.182025 to 0.182025
+Heightened Def Con from 0.195 ++++++++++++++++++to 0.195001
+Heightened Def Con from 0.209 to 0.209
+Heightened Def Con from 0.209 ++++++++++++++++++to 0.209001
+Heightened Def Con from 0.20916 to 0.209161
+Heightened Def Con from 0.217 to 0.217001
+Heightened Def Con from 0.218605 to 0.218605
+Heightened Def Con from 0.21982 to 0.219821
+Heightened Def Con from 0.222 ++++++++++++++++++to 0.222001
+Heightened Def Con from 0.223 to 0.223001
+Heightened Def Con from 0.226 ++++++++++++++++++to 0.226001
+Heightened Def Con from 0.22764 ++++++++++++++++++to 0.227641
+Heightened Def Con from 0.2307 to 0.230701
+Heightened Def Con from 0.234 ++++++++++++++++++to 0.234001
+Heightened Def Con from 0.235 to 0.235
+Heightened Def Con from 0.235 to 0.235001
+Heightened Def Con from 0.23896 to 0.238961
+Heightened Def Con from 0.245 ++++++++++++++++++to 0.245001
+Heightened Def Con from 0.247 to 0.247
+Heightened Def Con from 0.247 ++++++++++++++++++to 0.247001
+
+Date: Mon Jan 24 11:40:44 2022
+Total elapsed time: 32.966 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 6608
-traniter = 6558
-tranpoints = 2690
-accept = 2188
-rejected = 502
-matrix size = 27
-fillins = 1
+totiter = 7057837
+traniter = 7057818
+tranpoints = 2125084
+accept = 1583970
+rejected = 541362
+matrix size = 30
+fillins = 3
 solver = Normal
-Matrix Compiler1: 800 bytes object code size  0.3/0.1/[0.1]
-Matrix Compiler2: 1.64 KB object code size  0.1/0.3/[0.1]
+Matrix Compiler1: 968 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.3/0.2
 
